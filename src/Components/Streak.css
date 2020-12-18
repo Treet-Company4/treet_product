@@ -1,0 +1,56 @@
+.streakCardMain {
+    margin: auto;
+    width: 80%;
+    margin-top: 3rem;
+    border-radius: 6px;
+    border: none;
+}
+
+.streakCardHeader {
+    text-align: left;
+    color: #707070 40%;
+    background-color: white;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.streakCardWithin {
+    width: 50%;
+    margin: auto;
+    border:none;
+    margin: 0px;
+    color: gray;
+    text-align: center;
+}
+#middleLine{
+    border-left: solid #8d8d8d5d ;
+    border-width: 1px;
+    border-radius: 0mm;
+}
+
+.streakCardBody {
+    display: flex;
+    padding: 0 0 0 0;
+}
+
+.card-text {
+    text-align: center;
+}
+.verticalCenter {
+    margin-top:auto;
+    margin-bottom: auto;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+}
+.body {
+    display: flex;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.level1 {
+    padding: 1rem;
+}

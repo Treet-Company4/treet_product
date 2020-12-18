@@ -1,0 +1,63 @@
+/* .mainDiv {
+    display: block;
+    overflow: auto;
+} */
+
+.typeButton {
+    background-color: white;
+    color: black;
+    border-block-color: black;
+    margin: auto;
+    height: 2rem;
+    width: 9.5rem;
+    padding: 0 0 0 0;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.datePicker {
+    border-radius: 0.5rem;
+    width: 80%;
+    text-align: center;
+}
+
+.dateButtons {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.typeDataDateCard {
+    margin-top: 1rem;
+}
+
+.arrowButtons {
+    align-content: center;
+    margin-top: 2rem;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.iconButton {
+    width: 3rem;
+}
+
+.leftArrowButton {
+    /* position: fixed; */
+    width: 50%;
+    left: 1.5rem;
+}
+
+.rightArrowButton {
+    /* position: fixed; */
+    width: 50%;
+    right: 1.5rem;
+    text-align: right;
+}
+
+.returnButton {
+    color: black;
+    background-color: white;
+    border-color: white;
+}

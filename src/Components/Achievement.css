@@ -1,0 +1,27 @@
+.placeholder {
+    height : auto;
+    width: 4em;
+    margin: auto;
+    margin-bottom: 0.8em;
+    
+}
+
+.progressbar {
+    width: 4em;
+    height : 0.5em;
+    margin: auto;
+}
+
+.progress-bar{
+    background-color: gray;
+}
+
+.achievement-label {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.upcoming-achievement-card {
+    text-align: center;
+    margin: 0.3rem;
+}

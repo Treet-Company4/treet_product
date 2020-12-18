@@ -1,0 +1,35 @@
+.Login {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.LoginButton{
+  width: 50%; 
+  height: 20%;
+  font-size: 3rem;
+}
+
+.buttonDiv {
+  width: 100%;
+}
+
+.treeimage {
+  height: 50vh;
+
+}
+
+
+.Header {
+  top:0
+
+
+}
+
+h3 {
+  width: 100%;
+}
+
+.topMargin {
+  margin-top: 17vh;
+}

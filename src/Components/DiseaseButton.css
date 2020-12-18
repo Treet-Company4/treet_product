@@ -1,0 +1,73 @@
+
+#firstButton {
+   margin-top: 4rem;
+}
+
+.diseaseButtonCard {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px lighgrey;
+ }
+/*  
+ .diseaseButtonCardHeader {
+   margin-top: 1rem;
+   border: 2px solid gray;
+ } */
+ 
+ .arrowAchivement {
+   font-size: 300%;
+   margin-left: auto;
+   min-height: 100%;
+   margin-right: 1rem;
+   margin-top: 0rem;
+ }
+ 
+ .diseaseButtonCardHeader {
+   text-align: center;
+   background-color: white;
+   color: gray;
+   border: none;
+ }
+ 
+ .diseaseButtonCardBody {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+   padding-top: 0;
+   padding-bottom: 0.1rem;
+ }
+
+ .link:visited {
+   color: inherit;
+ }
+
+ .link:hover {
+   text-decoration: none;
+ }
+
+ .star {
+   width: 2rem;
+   height: 2rem;
+   margin: 0.5rem;
+ }
+
+ .arrowDiv {
+   margin-top: -15%;
+   width: 12%;
+   text-align: right;
+   
+ }
+
+ .starDiv {
+   width : 49%;
+   text-align: center;
+ }
+
+ .firstArrowDiv {
+   margin-left: 1rem;
+ }
+
+ .noStarsArrow {
+   width: 100%;
+   margin-right: 0.1rem;
+ }

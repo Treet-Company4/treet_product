@@ -1,0 +1,13 @@
+.treeimage {
+    max-width: 100%;
+    height: auto;
+}
+
+.FullyGrownTreeCardMain {
+    border: none;
+    color: black;
+}
+
+.FullyGrownTreeCardHeader {
+    background-color: white;
+}

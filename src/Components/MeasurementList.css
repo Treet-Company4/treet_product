@@ -1,0 +1,78 @@
+.firstDivAlign{
+    float:left;
+}
+
+.secondDivAlign{
+    float : right;
+    line-height: 0;
+    margin: auto;
+}
+
+.fa-heart {
+    font-size: 7px;
+}
+
+.divDistance{
+    margin-top: 05px;
+}
+
+h6 {
+    text-align: left;
+}
+
+.target {
+    display: flex;
+}
+
+.time {
+    display:flex;
+    align-items:center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+
+.activity {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.activity p {
+    margin-bottom: 0;
+    margin-right: 3px;
+}
+.icon {
+    margin-right: 5px;
+}
+
+.statusIcon {
+    font-size: 34px;
+}
+
+.activityIcon {
+}
+
+.listItem {
+    margin-top: 12px;
+    border: 1px solid #70707062;
+    border-radius: 6px;
+    background-color: white;
+    padding-left: 0.8rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    padding-right: 0.8rem;
+}
+
+.measurementCardHeader {
+    margin-bottom: 0;
+}
+
+.measurementCardContent {
+    display: flex;
+}
+
+.measurementCardContentLeft {
+    float: left;
+    width: 80%;
+}

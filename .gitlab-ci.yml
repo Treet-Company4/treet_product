@@ -1,0 +1,42 @@
+image: node:latest
+
+stages:
+  - install
+  - build
+  - deploy
+
+install:
+  stage: install
+  script:
+    - npm config set registry http://registry.npmjs.org/
+    - yarn install
+  artifacts:
+    name: "artifacts"
+    untracked: true
+    expire_in: 30 mins
+    paths:
+      - .npm/
+      - node_modules/
+
+build:
+  stage: build
+  script:
+      - CI=false yarn run build
+  artifacts:
+    paths:
+      - build
+  dependencies:
+    - install
+
+pages:
+  stage: deploy
+  script:
+    - rm -rf public
+    - mkdir public
+    - cp build/index.html build/404.html
+    - mv build/* public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

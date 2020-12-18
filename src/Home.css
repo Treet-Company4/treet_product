@@ -1,0 +1,21 @@
+.topDiv {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+.homePage {
+  display: inline list-item;
+}
+
+.scrollable {
+  padding-bottom: 1rem;
+}
+
+.allDoneDiv {
+  text-align: center;
+}
